@@ -28,6 +28,7 @@ public class P2_cybertekUrLverification {
 
 
         //4. verify Title:
+        // Expected: Practice
        String expectedTitle = "Practice";
         String actualTitle = driver.getTitle();
         if(actualTitle.equals(expectedTitle)){
@@ -36,6 +37,6 @@ public class P2_cybertekUrLverification {
             System.out.println("title verification FAILED!");
         }
 
-        // Expected: Practice
+
     }
 }
